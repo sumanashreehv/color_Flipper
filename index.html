@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proj:</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="color-display">
+        <h1>
+            BACKGROUND: <span id="current-color">#fffff</span>
+        </h1>
+        <button id="new-color-button">New Colour!</button>
+    </section>
+
+    <!-- async and defer can be used to execute the script file in parallel with parsing the page.
+    In case of async, script is downloaded in parallel to parsing the page
+    and executed as soon as it is available (before parsing completes)
+    In case of defer, script is downloaded in parallel to parsing the page
+    and executed after the page has finished parsing
+    In case of none, it is executed immediately, blocking parsing until the script is completed -->
+    <script src="script.js" defer></script>
+</body>
+
+</html>
